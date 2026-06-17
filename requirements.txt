@@ -1,0 +1,7 @@
+requests
+flask
+llama-cpp-python
+coqui-tts
+opencv-python
+numpy
+pyyaml

@@ -1,0 +1,156 @@
+:root {
+  --bg: #0f1117;
+  --surface: #1a1d27;
+  --border: #2a2f3d;
+  --text: #e8eaed;
+  --muted: #9aa0a6;
+  --accent: #6c9eff;
+  --accent-dim: #3d5a99;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: "Segoe UI", system-ui, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  display: flex;
+  min-height: 100vh;
+}
+
+.sidebar {
+  width: 200px;
+  background: var(--surface);
+  border-right: 1px solid var(--border);
+  padding: 1.5rem 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.brand {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--accent);
+  margin-bottom: 1.5rem;
+}
+
+.nav-link {
+  color: var(--muted);
+  text-decoration: none;
+  padding: 0.5rem 0.75rem;
+  border-radius: 6px;
+}
+.nav-link:hover { background: var(--border); color: var(--text); }
+
+.content {
+  flex: 1;
+  padding: 2rem;
+  max-width: 900px;
+}
+
+h1 { font-size: 1.75rem; margin-bottom: 0.5rem; }
+h2 { font-size: 1.25rem; margin: 1.5rem 0 0.75rem; }
+p { color: var(--muted); line-height: 1.6; margin-bottom: 1rem; }
+
+.hero h1 { font-size: 2rem; }
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1rem;
+  margin: 2rem 0;
+}
+
+.card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 1.25rem;
+  text-decoration: none;
+  color: inherit;
+  transition: border-color 0.2s;
+}
+.card:hover { border-color: var(--accent); }
+.card h3 { color: var(--accent); margin-bottom: 0.5rem; }
+
+.pipeline .flow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  align-items: center;
+  font-size: 0.85rem;
+}
+.pipeline .flow span {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  padding: 0.35rem 0.75rem;
+  border-radius: 20px;
+}
+
+.build-bar { display: flex; gap: 0.5rem; align-items: center; margin-bottom: 0.75rem; flex-wrap: wrap; }
+.project-input { flex: 1; min-width: 200px; background: var(--surface); border: 1px solid var(--border); color: var(--text); padding: 0.5rem; border-radius: 6px; font-family: inherit; }
+.project-info { font-size: 0.8rem; color: var(--muted); margin-bottom: 0.5rem; }
+.toggle { display: flex; align-items: center; gap: 0.35rem; font-size: 0.85rem; color: var(--muted); cursor: pointer; }
+.msg-plan { background: #1e2433; border: 1px solid var(--accent-dim); }
+.msg-system { background: transparent; color: var(--muted); font-size: 0.85rem; }
+
+.chat-page { display: flex; flex-direction: column; height: calc(100vh - 4rem); }
+.messages { flex: 1; overflow-y: auto; padding: 1rem 0; }
+.msg { margin-bottom: 1rem; padding: 0.75rem 1rem; border-radius: 8px; max-width: 85%; }
+.msg-user { background: var(--accent-dim); margin-left: auto; }
+.msg-assistant { background: var(--surface); border: 1px solid var(--border); }
+.msg-role { font-size: 0.75rem; color: var(--muted); margin-bottom: 0.25rem; text-transform: uppercase; }
+.msg-text { white-space: pre-wrap; line-height: 1.5; }
+.msg-meta { font-size: 0.75rem; color: var(--muted); margin-top: 0.5rem; }
+
+.chat-input {
+  border-top: 1px solid var(--border);
+  padding-top: 1rem;
+}
+.chat-input textarea {
+  width: 100%;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  color: var(--text);
+  border-radius: 8px;
+  padding: 0.75rem;
+  resize: vertical;
+  font-family: inherit;
+}
+.chat-actions { display: flex; gap: 0.5rem; margin-top: 0.5rem; justify-content: flex-end; }
+button, select {
+  background: var(--accent);
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  font-family: inherit;
+}
+select { background: var(--surface); border: 1px solid var(--border); color: var(--text); }
+
+.toolbar { display: flex; gap: 0.5rem; margin-bottom: 1rem; }
+.add-form { background: var(--surface); border: 1px solid var(--border); border-radius: 8px; padding: 1rem; margin-bottom: 1.5rem; display: flex; flex-direction: column; gap: 0.5rem; }
+.add-form input, .add-form textarea, .add-form select {
+  background: var(--bg);
+  border: 1px solid var(--border);
+  color: var(--text);
+  padding: 0.5rem;
+  border-radius: 6px;
+  font-family: inherit;
+}
+
+.memory-list { display: flex; flex-direction: column; gap: 0.75rem; }
+.memory-card { background: var(--surface); border: 1px solid var(--border); border-radius: 8px; padding: 1rem; }
+.memory-header { display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.5rem; }
+.badge { background: var(--accent-dim); font-size: 0.7rem; padding: 0.15rem 0.5rem; border-radius: 4px; }
+.memory-card small { color: var(--muted); }
+
+.import-form { display: flex; gap: 0.5rem; align-items: center; margin: 1.5rem 0; }
+.import-result { background: var(--surface); border: 1px solid var(--border); border-radius: 8px; padding: 1rem; }
+.import-result pre { white-space: pre-wrap; font-size: 0.85rem; }
+
+code { background: var(--surface); padding: 0.15rem 0.4rem; border-radius: 4px; font-size: 0.9rem; }
+ul { margin-left: 1.5rem; color: var(--muted); }
+li { margin-bottom: 0.25rem; }

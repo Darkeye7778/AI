@@ -1,0 +1,29 @@
+# Personal AI Assistant — platform settings
+# Override via .env with ASSISTANT_ prefix (see .env.example)
+
+llm:
+  provider: local          # local | openai | xai | ollama
+  model: models/mistral-7b-instruct-v0.1.Q6_K.gguf
+  nsfw_api_url: http://localhost:5000/v1/chat/completions
+
+server:
+  host: 127.0.0.1
+  port: 8420
+
+paths:
+  data: data
+  workspace: workspace/projects
+  legacy_memory: memory/memory.json
+
+invokeai:
+  api_url: http://192.168.40.236:9090
+
+memory_categories:
+  - user_profile
+  - active_projects
+  - business_plans
+  - technical_builds
+  - financial_context
+  - personal_notes
+  - session_context
+  - archived_history

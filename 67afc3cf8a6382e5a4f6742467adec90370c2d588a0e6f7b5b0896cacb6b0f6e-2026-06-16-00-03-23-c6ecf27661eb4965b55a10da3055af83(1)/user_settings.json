@@ -1,0 +1,72 @@
+[
+  {
+    "announcements": {
+      "oai/apps/hasSeenAdvancedVoice/2024-09-24": "2025-07-18T17:53:25.916949+00:00",
+      "oai/apps/hasSeenAdvancedVoiceOnMobile/2024-09-26": "2025-03-22T00:40:33.045688+00:00",
+      "oai/apps/hasSeenAgentModeAnnouncementBanner": "2025-07-30T22:55:39.296103+00:00",
+      "oai/apps/hasSeenArchiveConversationOnboarding": "2026-02-01T23:14:47.669626+00:00",
+      "oai/apps/hasSeenArtifactsLearnMoreModal": "2026-06-03T02:30:46.696456+00:00",
+      "oai/apps/hasSeenAutoSwitchNux": 11,
+      "oai/apps/hasSeenBigPasteCoachmark": "2026-03-23T16:20:02.210144+00:00",
+      "oai/apps/hasSeenBurritoNux": "2025-08-12T17:26:13.871258+00:00",
+      "oai/apps/hasSeenCodexAppHomeBanner": "2026-02-05T02:40:10.243925+00:00",
+      "oai/apps/hasSeenComposerSearchButtonTooltip": "2025-03-21T16:15:36.590442+00:00",
+      "oai/apps/hasSeenComposerSystemHintButtonTooltip": "2025-03-27T17:30:34.639032+00:00",
+      "oai/apps/hasSeenConnectorsNuxModal": "2025-08-30T03:40:36.488179+00:00",
+      "oai/apps/hasSeenDalleEditingOnboarding": "2025-09-15T03:33:03.891161+00:00",
+      "oai/apps/hasSeenImage2026RevampNux": "2026-04-25T00:48:22.133428+00:00",
+      "oai/apps/hasSeenMaverick": "2025-03-18T18:41:15.376415+00:00",
+      "oai/apps/hasSeenMemoryUpdatedTooltip": "2025-07-11T01:14:22.441096+00:00",
+      "oai/apps/hasSeenMoonshineNuxV2": "2025-05-03T02:18:42.735096+00:00",
+      "oai/apps/hasSeenOnboarding": "2025-03-18T18:41:16.566138+00:00",
+      "oai/apps/hasSeenPhoenixFreeNux": "2025-04-28T02:53:29.315163+00:00",
+      "oai/apps/hasSeenPhoenixNux": "2025-05-05T01:48:44.126663+00:00",
+      "oai/apps/hasSeenPioneer": "2025-03-18T18:41:14.908815+00:00",
+      "oai/apps/hasSeenProjectsWebNuxTooltip": "2025-07-08T18:11:57.269734+00:00",
+      "oai/apps/hasSeenPurpleRainNux": "2026-01-22T18:37:17.447856+00:00",
+      "oai/apps/hasSeenSharedProjectsTooltip": "2025-10-26T01:25:51.865586+00:00",
+      "oai/apps/hasSeenStardustOnboarding": "2025-07-30T18:11:59.394754+00:00",
+      "oai/apps/hasSeenTatertotNux": "2025-09-15T18:20:29.297751+00:00",
+      "oai/apps/hasSeenWindowsAppOnboarding": "2025-09-10T20:23:06.656154+00:00",
+      "oai/apps/hasSeenWritingInlineEditCaretNux": "2026-03-03T23:31:04.608368+00:00",
+      "oai/apps/hasSeenWritingInlineEditNux": "2026-03-07T02:13:58.071556+00:00",
+      "oai/apps/hasSeenl1239dk1LaunchNux": "2025-07-27T07:29:51.714975+00:00",
+      "oai/apps/hasSeenn7jupdNux": "2025-07-26T03:51:51.886900+00:00",
+      "oai/apps/hasUserContextFirstTime/2023-06-29": "2025-07-28T04:37:56.107827+00:00"
+    },
+    "beta_settings": {},
+    "habitat_object_version": 29585660,
+    "settings": {
+      "chat_theme": "purple",
+      "developer_mode": false,
+      "first_party_project_pins_unmigrated": true,
+      "golden_hour": true,
+      "last_used_model_config": {
+        "juices": {
+          "default": {
+            "gpt-5-5-thinking": "standard"
+          },
+          "web": {
+            "gpt-5-5-thinking": "standard"
+          }
+        },
+        "slugs": {
+          "android_app": "gpt-5-5",
+          "default": "gpt-5-5",
+          "web": "gpt-5-5-thinking",
+          "windows_app": "gpt-5-5"
+        }
+      },
+      "moonshine": true,
+      "project_pins_backfilled": true,
+      "show_expanded_code_view": true,
+      "show_legacy_models": true,
+      "sunshine": true,
+      "training_allowed": true,
+      "voice_main_language": "en",
+      "voice_name": "fathom",
+      "voice_training_allowed": false
+    },
+    "user_id": "user-dX5QyOpIKOfd4IMbZjMLprk6"
+  }
+]
